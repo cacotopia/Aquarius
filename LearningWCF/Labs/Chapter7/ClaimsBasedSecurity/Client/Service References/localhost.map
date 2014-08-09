@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceReference>
+	<ProxyGenerationParameters
+		ServiceReferenceUri="http://localhost:2616/WebHost/service.svc"
+		Name="localhost"
+		NotifyPropertyChange="False"
+		UseObservableCollection="False">
+	</ProxyGenerationParameters>
+	<EndPoints>
+		<EndPoint
+			Address="http://localhost:2616/WebHost/service.svc"
+			BindingConfiguration="WSHttpBinding_ICrudService"
+			Contract="Client.localhost.ICrudService"
+			>
+		</EndPoint>
+	</EndPoints>
+</ServiceReference>

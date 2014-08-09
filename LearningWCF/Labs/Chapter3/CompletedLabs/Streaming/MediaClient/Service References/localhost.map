@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceReference>
+	<ProxyGenerationParameters
+		ServiceReferenceUri="http://localhost:8000/"
+		Name="localhost"
+		NotifyPropertyChange="True"
+		UseObservableCollection="False">
+	</ProxyGenerationParameters>
+	<EndPoints>
+		<EndPoint
+			Address="http://localhost:8000/MediaManager"
+			BindingConfiguration="BasicHttpBinding_MediaManagerContract"
+			Contract="MediaClient.localhost.MediaManagerContract"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="http://localhost:8000/MediaStream"
+			BindingConfiguration="BasicHttpBinding_MediaStreamingContract"
+			Contract="MediaClient.localhost.MediaStreamingContract"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="net.tcp://localhost:9000/MediaStream"
+			BindingConfiguration="NetTcpBinding_MediaStreamingContract"
+			Contract="MediaClient.localhost.MediaStreamingContract"
+			>
+		</EndPoint>
+	</EndPoints>
+</ServiceReference>

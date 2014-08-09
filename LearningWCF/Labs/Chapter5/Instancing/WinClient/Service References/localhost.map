@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceReference>
+	<ProxyGenerationParameters
+		ServiceReferenceUri="http://localhost:8000/"
+		Name="localhost"
+		NotifyPropertyChange="True"
+		UseObservableCollection="False">
+	</ProxyGenerationParameters>
+	<EndPoints>
+		<EndPoint
+			Address="net.pipe://localhost/netPipe"
+			BindingConfiguration="NetNamedPipeBinding_ICounterService"
+			Contract="WinClient.localhost.ICounterService"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="net.tcp://localhost:9000/netTcp"
+			BindingConfiguration="NetTcpBinding_ICounterService"
+			Contract="WinClient.localhost.ICounterService"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="http://localhost:8000/CounterServiceBasicHttp"
+			BindingConfiguration="BasicHttpBinding_ICounterService"
+			Contract="WinClient.localhost.ICounterService"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="http://localhost:8000/wsHttpNoSession"
+			BindingConfiguration="WSHttpBinding_ICounterService"
+			Contract="WinClient.localhost.ICounterService"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="http://localhost:8000/wsHttpSecureSession"
+			BindingConfiguration="WSHttpBinding_ICounterService1"
+			Contract="WinClient.localhost.ICounterService"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="http://localhost:8000/wsHttpReliableSession"
+			BindingConfiguration="WSHttpBinding_ICounterService2"
+			Contract="WinClient.localhost.ICounterService"
+			>
+		</EndPoint>
+	</EndPoints>
+</ServiceReference>

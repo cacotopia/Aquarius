@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:3045/PhotoApplication/PhotoManagerService.svc?wsdl" filename="PhotoManagerService.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://localhost:3045/PhotoApplication/PhotoManagerService.svc?xsd=xsd1" filename="PhotoManagerService.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://localhost:3045/PhotoApplication/PhotoManagerService.svc?xsd=xsd2" filename="PhotoManagerService0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:3045/PhotoApplication/PhotoManagerService.svc?wsdl=wsdl0" filename="PhotoManagerService0.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://localhost:3045/PhotoApplication/PhotoManagerService.svc?disco" filename="PhotoManagerService.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://localhost:3045/PhotoApplication/PhotoManagerService.svc?xsd=xsd0" filename="PhotoManagerService1.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>

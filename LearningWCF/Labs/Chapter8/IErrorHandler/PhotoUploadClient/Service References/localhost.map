@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceReference>
+	<ProxyGenerationParameters
+		ServiceReferenceUri="http://localhost:8000/"
+		Name="localhost"
+		NotifyPropertyChange="True"
+		UseObservableCollection="False">
+	</ProxyGenerationParameters>
+	<EndPoints>
+		<EndPoint
+			Address="http://localhost:8000/PhotoManagerService"
+			BindingConfiguration="BasicHttpBinding_PhotoUploadContract"
+			Contract="PhotoUploadClient.localhost.PhotoUploadContract"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="net.tcp://localhost:9000/PhotoManagerService"
+			BindingConfiguration="NetTcpBinding_PhotoUploadContract"
+			Contract="PhotoUploadClient.localhost.PhotoUploadContract"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="http://localhost:8000/PhotoManagerService"
+			BindingConfiguration="BasicHttpBinding_PhotoManagerContract"
+			Contract="PhotoUploadClient.localhost.PhotoManagerContract"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="net.tcp://localhost:9000/PhotoManagerService"
+			BindingConfiguration="NetTcpBinding_PhotoManagerContract"
+			Contract="PhotoUploadClient.localhost.PhotoManagerContract"
+			>
+		</EndPoint>
+	</EndPoints>
+</ServiceReference>

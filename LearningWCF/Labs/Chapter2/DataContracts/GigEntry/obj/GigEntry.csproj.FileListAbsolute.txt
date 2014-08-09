@@ -1,0 +1,16 @@
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigEntry\bin\Debug\GigEntry.exe
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigEntry\bin\Debug\GigEntry.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigEntry\obj\Debug\ResolveAssemblyReference.cache
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigEntry\obj\Debug\GigEntry.GigInfoForm.resources
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigEntry\obj\Debug\GigEntry.Properties.Resources.resources
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigEntry\obj\Debug\GigEntry.csproj.GenerateResource.Cache
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigEntry\obj\Debug\GigEntry.exe
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigEntry\obj\Debug\GigEntry.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigEntry\bin\x86\Debug\GigEntry.exe
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigEntry\bin\x86\Debug\GigEntry.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigEntry\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigEntry\obj\x86\Debug\GigEntry.GigInfoForm.resources
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigEntry\obj\x86\Debug\GigEntry.Properties.Resources.resources
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigEntry\obj\x86\Debug\GigEntry.csproj.GenerateResource.Cache
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigEntry\obj\x86\Debug\GigEntry.exe
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigEntry\obj\x86\Debug\GigEntry.pdb

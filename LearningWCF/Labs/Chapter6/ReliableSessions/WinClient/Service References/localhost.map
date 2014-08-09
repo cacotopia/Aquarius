@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceReference>
+	<ProxyGenerationParameters
+		ServiceReferenceUri="http://localhost:8000/MessagingService"
+		Name="localhost"
+		NotifyPropertyChange="True"
+		UseObservableCollection="False">
+	</ProxyGenerationParameters>
+	<EndPoints>
+		<EndPoint
+			Address="net.tcp://localhost:9000/MessagingService/netTcpRM"
+			BindingConfiguration="NetTcpBinding_IMessagingService"
+			Contract="WinClient.localhost.IMessagingService"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="http://localhost:8000/MessagingService/wsHttpRM"
+			BindingConfiguration="WSHttpBinding_IMessagingService"
+			Contract="WinClient.localhost.IMessagingService"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="net.pipe://localhost/MessagingService/netPipeCustomRM"
+			BindingConfiguration="CustomBinding_IMessagingService"
+			Contract="WinClient.localhost.IMessagingService"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="net.tcp://localhost:9000/MessagingService/netTcpCustomRM"
+			BindingConfiguration="CustomBinding_IMessagingService1"
+			Contract="WinClient.localhost.IMessagingService"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="http://localhost:8000/MessagingService/wsHttpCustomRM"
+			BindingConfiguration="CustomBinding_IMessagingService2"
+			Contract="WinClient.localhost.IMessagingService"
+			>
+		</EndPoint>
+	</EndPoints>
+</ServiceReference>

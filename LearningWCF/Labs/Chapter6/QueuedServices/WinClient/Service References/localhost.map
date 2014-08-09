@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceReference>
+	<ProxyGenerationParameters
+		ServiceReferenceUri="http://localhost:8000/MessagingService"
+		Name="localhost"
+		NotifyPropertyChange="True"
+		UseObservableCollection="False">
+	</ProxyGenerationParameters>
+	<EndPoints>
+		<EndPoint
+			Address="net.msmq://localhost/private/MessagingServiceQueue"
+			BindingConfiguration="NetMsmqBinding_IMessagingService"
+			Contract="WinClient.localhost.IMessagingService"
+			>
+		</EndPoint>
+	</EndPoints>
+</ServiceReference>

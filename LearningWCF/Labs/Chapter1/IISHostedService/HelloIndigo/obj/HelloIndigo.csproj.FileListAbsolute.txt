@@ -1,0 +1,5 @@
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\IISHostedService\HelloIndigo\bin\Debug\HelloIndigo.dll
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\IISHostedService\HelloIndigo\bin\Debug\HelloIndigo.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\IISHostedService\HelloIndigo\obj\Debug\ResolveAssemblyReference.cache
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\IISHostedService\HelloIndigo\obj\Debug\HelloIndigo.dll
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\IISHostedService\HelloIndigo\obj\Debug\HelloIndigo.pdb

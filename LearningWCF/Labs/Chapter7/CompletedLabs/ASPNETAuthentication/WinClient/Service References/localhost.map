@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceReference>
+	<ProxyGenerationParameters
+		ServiceReferenceUri="http://localhost/ASPNETAuthenticationWebHost/Service.svc"
+		Name="localhost"
+		NotifyPropertyChange="True"
+		UseObservableCollection="False">
+	</ProxyGenerationParameters>
+	<EndPoints>
+		<EndPoint
+			Address="https://mlbvista/ASPNETAuthenticationWebHost/Service.svc/Soap11"
+			BindingConfiguration="BasicHttpBinding_SecureServiceContract"
+			Contract="WinClient.localhost.SecureServiceContract"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="http://mlbvista/ASPNETAuthenticationWebHost/Service.svc/Soap12"
+			BindingConfiguration="WSHttpBinding_SecureServiceContract"
+			Contract="WinClient.localhost.SecureServiceContract"
+			>
+		</EndPoint>
+	</EndPoints>
+</ServiceReference>

@@ -1,0 +1,10 @@
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\Host\bin\Debug\Host.exe.config
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\Host\bin\Debug\Host.exe
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\Host\bin\Debug\Host.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\Host\bin\Debug\GigManager.dll
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\Host\bin\Debug\ContentTypes.dll
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\Host\bin\Debug\ContentTypes.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\Host\bin\Debug\GigManager.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\Host\obj\Debug\ResolveAssemblyReference.cache
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\Host\obj\Debug\Host.exe
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\Host\obj\Debug\Host.pdb

@@ -1,0 +1,9 @@
+E:\CODESTAR\LearningWCF\LearningWCF\Labs\Chapter1\HelloIndigo\Host\bin\Debug\Host.exe.config
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\HelloIndigo\Host\bin\Debug\Host.exe.config
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\HelloIndigo\Host\bin\Debug\Host.exe
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\HelloIndigo\Host\bin\Debug\Host.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\HelloIndigo\Host\obj\Debug\ResolveAssemblyReference.cache
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\HelloIndigo\Host\obj\Debug\Host.exe
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\HelloIndigo\Host\obj\Debug\Host.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\HelloIndigo\Host\bin\Debug\HelloIndigo.dll
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\HelloIndigo\Host\bin\Debug\HelloIndigo.pdb

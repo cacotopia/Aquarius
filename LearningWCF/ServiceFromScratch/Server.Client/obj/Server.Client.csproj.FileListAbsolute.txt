@@ -1,0 +1,5 @@
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Server.Client\obj\Debug\ResolveAssemblyReference.cache
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Server.Client\bin\Debug\Server.Client.exe
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Server.Client\bin\Debug\Server.Client.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Server.Client\obj\Debug\Server.Client.exe
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Server.Client\obj\Debug\Server.Client.pdb

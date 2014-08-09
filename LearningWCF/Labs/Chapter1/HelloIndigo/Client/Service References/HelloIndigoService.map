@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceReference>
+	<ProxyGenerationParameters
+		ServiceReferenceUri="http://127.0.0.1:4502/HelloIndigo"
+		Name="HelloIndigoService"
+		NotifyPropertyChange="False"
+		UseObservableCollection="False">
+	</ProxyGenerationParameters>
+	<EndPoints>
+		<EndPoint
+			Address="http://127.0.0.1:4502/HelloIndigo/HelloIndigoService"
+			BindingConfiguration="basicHttp"
+			Contract="Client.HelloIndigoService.IHelloIndigoService"
+			>
+		</EndPoint>
+	</EndPoints>
+</ServiceReference>

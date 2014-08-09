@@ -1,0 +1,48 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="site.master.cs" Inherits="idesign" %>
+<%@ Register Src="menu.ascx" TagName="menu" TagPrefix="uc2" %>
+<%@ Register Src="Header.ascx" TagName="Header" TagPrefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Learning WCF - Photo Application</title>
+      
+</head>
+<body>
+<!-- 
+idesign2.master
+
+This master page relies on themes for style, an breaks parts into separate user controls. 
+-->
+
+    <form id="form1" runat="server">
+   <table class="frame" cellspacing="0" cellpadding="0">
+   <tr><td>
+<!--header-->
+       <uc1:Header ID="Header1" runat="server" />
+<!--menu-->
+       <uc2:menu ID="Menu1" runat="server" />
+
+  <table height="100%" width="100%" cellspacing="0" cellpadding="0">
+  <!--navigation-->
+            <tr >
+              <!--content-->
+                <td align="center" valign="top">
+                              <p>
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            </asp:contentplaceholder></p>
+    
+         
+                </td>
+              <!--end content-->
+                
+            </tr>
+            
+        </table>
+   </td></tr>
+   </table>  
+
+    </form>
+</body>
+</html>

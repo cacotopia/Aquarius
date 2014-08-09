@@ -1,0 +1,5 @@
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\ContentTypes\bin\Debug\ContentTypes.dll
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\ContentTypes\bin\Debug\ContentTypes.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\ContentTypes\obj\Debug\ResolveAssemblyReference.cache
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\ContentTypes\obj\Debug\ContentTypes.dll
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\ContentTypes\obj\Debug\ContentTypes.pdb

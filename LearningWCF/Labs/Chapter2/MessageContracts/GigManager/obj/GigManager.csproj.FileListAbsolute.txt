@@ -1,0 +1,7 @@
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\GigManager\bin\Debug\GigManager.dll
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\GigManager\bin\Debug\GigManager.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\GigManager\bin\Debug\ContentTypes.dll
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\GigManager\bin\Debug\ContentTypes.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\GigManager\obj\Debug\ResolveAssemblyReference.cache
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\GigManager\obj\Debug\GigManager.dll
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\GigManager\obj\Debug\GigManager.pdb

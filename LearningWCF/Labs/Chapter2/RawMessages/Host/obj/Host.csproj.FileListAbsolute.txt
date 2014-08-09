@@ -1,0 +1,1 @@
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\RawMessages\Host\bin\Debug\Host.exe.config

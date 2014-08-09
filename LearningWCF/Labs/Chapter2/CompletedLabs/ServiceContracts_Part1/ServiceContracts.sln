@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{4F84FEB9-2AD7-4F16-A5E5-C8A5EEF09DDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessServices", "BusinessServices\BusinessServices.csproj", "{ADCD4579-117F-46F4-9914-C055CCC40A42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinClient", "WinClient\WinClient.csproj", "{1A424C4A-DF7C-49F8-A4F0-11F53B14EF92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F84FEB9-2AD7-4F16-A5E5-C8A5EEF09DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F84FEB9-2AD7-4F16-A5E5-C8A5EEF09DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F84FEB9-2AD7-4F16-A5E5-C8A5EEF09DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F84FEB9-2AD7-4F16-A5E5-C8A5EEF09DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADCD4579-117F-46F4-9914-C055CCC40A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADCD4579-117F-46F4-9914-C055CCC40A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADCD4579-117F-46F4-9914-C055CCC40A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADCD4579-117F-46F4-9914-C055CCC40A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A424C4A-DF7C-49F8-A4F0-11F53B14EF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A424C4A-DF7C-49F8-A4F0-11F53B14EF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A424C4A-DF7C-49F8-A4F0-11F53B14EF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A424C4A-DF7C-49F8-A4F0-11F53B14EF92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

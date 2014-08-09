@@ -1,0 +1,14 @@
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigManager\bin\Debug\GigManager.dll
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigManager\bin\Debug\GigManager.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigManager\bin\Debug\ContentTypes.dll
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigManager\bin\Debug\ContentTypes.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigManager\obj\Debug\ResolveAssemblyReference.cache
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigManager\obj\Debug\GigManager.dll
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigManager\obj\Debug\GigManager.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigManager\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigManager\bin\x86\Debug\GigManager.dll
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigManager\bin\x86\Debug\GigManager.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigManager\bin\x86\Debug\ContentTypes.dll
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigManager\bin\x86\Debug\ContentTypes.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigManager\obj\x86\Debug\GigManager.dll
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\DataContracts\GigManager\obj\x86\Debug\GigManager.pdb

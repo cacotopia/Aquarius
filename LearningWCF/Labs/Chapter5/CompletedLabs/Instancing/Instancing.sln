@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Counters", "Counters\Counters.csproj", "{DB12752A-7DB8-44EA-A761-D463044FE1E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinClient", "WinClient\WinClient.csproj", "{1B4C643E-37F8-40A1-9E1A-0414C07C480D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{33E953EF-9194-424C-9B86-520A83431744}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB12752A-7DB8-44EA-A761-D463044FE1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB12752A-7DB8-44EA-A761-D463044FE1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB12752A-7DB8-44EA-A761-D463044FE1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB12752A-7DB8-44EA-A761-D463044FE1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4C643E-37F8-40A1-9E1A-0414C07C480D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4C643E-37F8-40A1-9E1A-0414C07C480D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4C643E-37F8-40A1-9E1A-0414C07C480D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4C643E-37F8-40A1-9E1A-0414C07C480D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E953EF-9194-424C-9B86-520A83431744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E953EF-9194-424C-9B86-520A83431744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E953EF-9194-424C-9B86-520A83431744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E953EF-9194-424C-9B86-520A83431744}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

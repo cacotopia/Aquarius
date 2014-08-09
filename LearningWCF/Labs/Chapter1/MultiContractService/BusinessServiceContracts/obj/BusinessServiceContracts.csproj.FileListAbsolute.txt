@@ -1,0 +1,5 @@
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\MultiContractService\BusinessServiceContracts\bin\Debug\BusinessServiceContracts.dll
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\MultiContractService\BusinessServiceContracts\bin\Debug\BusinessServiceContracts.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\MultiContractService\BusinessServiceContracts\obj\Debug\ResolveAssemblyReference.cache
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\MultiContractService\BusinessServiceContracts\obj\Debug\BusinessServiceContracts.dll
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\MultiContractService\BusinessServiceContracts\obj\Debug\BusinessServiceContracts.pdb

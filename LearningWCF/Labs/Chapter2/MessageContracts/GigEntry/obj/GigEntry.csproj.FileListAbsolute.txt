@@ -1,0 +1,9 @@
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\GigEntry\bin\Debug\GigEntry.exe
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\GigEntry\bin\Debug\GigEntry.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\GigEntry\obj\Debug\ResolveAssemblyReference.cache
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\GigEntry\obj\Debug\GigEntry.GigInfoForm.resources
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\GigEntry\obj\Debug\GigEntry.Properties.Resources.resources
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\GigEntry\obj\Debug\GigEntry.csproj.GenerateResource.Cache
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\GigEntry\obj\Debug\GigEntry.exe
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\GigEntry\obj\Debug\GigEntry.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter2\MessageContracts\GigEntry\bin\Debug\GigEntry.exe.config

@@ -1,0 +1,9 @@
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\MultiContractService\ExternalClient\bin\Debug\ExternalClient.exe.config
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\MultiContractService\ExternalClient\bin\Debug\ExternalClient.exe
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\MultiContractService\ExternalClient\bin\Debug\ExternalClient.pdb
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\MultiContractService\ExternalClient\obj\Debug\ResolveAssemblyReference.cache
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\MultiContractService\ExternalClient\obj\Debug\ExternalClient.Form1.resources
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\MultiContractService\ExternalClient\obj\Debug\ExternalClient.Properties.Resources.resources
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\MultiContractService\ExternalClient\obj\Debug\ExternalClient.csproj.GenerateResource.Cache
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\MultiContractService\ExternalClient\obj\Debug\ExternalClient.exe
+E:\CODEMONKEY\Visual Studio 2005\projects\LearningWCF\Labs\Chapter1\MultiContractService\ExternalClient\obj\Debug\ExternalClient.pdb

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceReference>
+	<ProxyGenerationParameters
+		ServiceReferenceUri="http://localhost:8001/"
+		Name="ServiceB"
+		NotifyPropertyChange="True"
+		UseObservableCollection="False">
+	</ProxyGenerationParameters>
+	<EndPoints>
+		<EndPoint
+			Address="net.pipe://localhost/Admin"
+			BindingConfiguration="NetNamedPipeBinding_IAdmin"
+			Contract="ExternalClient.ServiceB.IAdmin"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="http://localhost:8001/ServiceB"
+			BindingConfiguration="BasicHttpBinding_IServiceB"
+			Contract="ExternalClient.ServiceB.IServiceB"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="net.pipe://localhost/ServiceB"
+			BindingConfiguration="NetNamedPipeBinding_IServiceB"
+			Contract="ExternalClient.ServiceB.IServiceB"
+			>
+		</EndPoint>
+	</EndPoints>
+</ServiceReference>
