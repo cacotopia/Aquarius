@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.DataModel", "WebApi.DataModel\WebApi.DataModel.csproj", "{D5130B71-19E0-4BFF-AA9B-DE5A71039E45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Controller", "WebApi.Controller\WebApi.Controller.csproj", "{63B7CEDB-33F8-4F85-AC56-0053DB7E6DF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.WebHost", "WebApi.WebHost\WebApi.WebHost.csproj", "{E0B55A2C-228E-4840-9642-80FC8A81D30D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.SelfHost", "WebApi.SelfHost\WebApi.SelfHost.csproj", "{824CEE02-5557-45EA-BA42-3FCEF27CF9AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F8B8C90C-3A25-4753-BE1D-A8B95A9D8FCA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiStorm", "ApiStorm\ApiStorm.csproj", "{BBC10508-F648-45C7-AC5A-4AE9EBF6F005}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5130B71-19E0-4BFF-AA9B-DE5A71039E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5130B71-19E0-4BFF-AA9B-DE5A71039E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5130B71-19E0-4BFF-AA9B-DE5A71039E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5130B71-19E0-4BFF-AA9B-DE5A71039E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B7CEDB-33F8-4F85-AC56-0053DB7E6DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B7CEDB-33F8-4F85-AC56-0053DB7E6DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B7CEDB-33F8-4F85-AC56-0053DB7E6DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B7CEDB-33F8-4F85-AC56-0053DB7E6DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B55A2C-228E-4840-9642-80FC8A81D30D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B55A2C-228E-4840-9642-80FC8A81D30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B55A2C-228E-4840-9642-80FC8A81D30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B55A2C-228E-4840-9642-80FC8A81D30D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824CEE02-5557-45EA-BA42-3FCEF27CF9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824CEE02-5557-45EA-BA42-3FCEF27CF9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824CEE02-5557-45EA-BA42-3FCEF27CF9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824CEE02-5557-45EA-BA42-3FCEF27CF9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBC10508-F648-45C7-AC5A-4AE9EBF6F005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC10508-F648-45C7-AC5A-4AE9EBF6F005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC10508-F648-45C7-AC5A-4AE9EBF6F005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC10508-F648-45C7-AC5A-4AE9EBF6F005}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
