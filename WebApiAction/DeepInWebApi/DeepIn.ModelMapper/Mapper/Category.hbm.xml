@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="DeepIn.ModelMapper" namespace="DeepIn.ModelMapper.Model" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="category" table="category" lazy="true" >
+    <id name="category_id" column="category_id" />
+    <property name="name">
+      <column name="name" sql-type="varchar(25)" not-null="true" />
+    </property>
+    <property name="last_update">
+      <column name="last_update" sql-type="timestamp" not-null="true" />
+    </property>
+    <bag name="film_category">
+      <key column="" />
+      <one-to-many class="film_category" />
+    </bag>
+  </class>
+</hibernate-mapping>

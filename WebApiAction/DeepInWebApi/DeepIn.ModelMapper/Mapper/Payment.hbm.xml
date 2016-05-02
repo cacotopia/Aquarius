@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="DeepIn.ModelMapper" namespace="DeepIn.ModelMapper.Model" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="payment" table="payment" lazy="true" >
+    <id name="payment_id" column="payment_id" />
+    <many-to-one name="customer">
+      <column name="customer_id" sql-type="smallint(5) unsigned" not-null="true" />
+    </many-to-one>
+    <many-to-one name="staff">
+      <column name="staff_id" sql-type="tinyint(3) unsigned" not-null="true" />
+    </many-to-one>
+    <many-to-one name="rental">
+      <column name="rental_id" sql-type="int(11)" not-null="false" />
+    </many-to-one>
+    <property name="amount">
+      <column name="amount" sql-type="decimal(5,2)" not-null="true" />
+    </property>
+    <property name="payment_date">
+      <column name="payment_date" sql-type="datetime" not-null="true" />
+    </property>
+    <property name="last_update">
+      <column name="last_update" sql-type="timestamp" not-null="true" />
+    </property>
+  </class>
+</hibernate-mapping>

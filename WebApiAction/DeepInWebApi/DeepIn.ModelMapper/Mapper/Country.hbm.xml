@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="DeepIn.ModelMapper" namespace="DeepIn.ModelMapper.Model" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="country" table="country" lazy="true" >
+    <id name="country_id" column="country_id" />
+    <property name="country">
+      <column name="country" sql-type="varchar(50)" not-null="true" />
+    </property>
+    <property name="last_update">
+      <column name="last_update" sql-type="timestamp" not-null="true" />
+    </property>
+    <bag name="city">
+      <key column="" />
+      <one-to-many class="city" />
+    </bag>
+  </class>
+</hibernate-mapping>

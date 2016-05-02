@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="DeepIn.ModelMapper" namespace="DeepIn.ModelMapper.Model" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="language" table="language" lazy="true" >
+    <id name="language_id" column="language_id" />
+    <property name="name">
+      <column name="name" sql-type="char(20)" not-null="true" />
+    </property>
+    <property name="last_update">
+      <column name="last_update" sql-type="timestamp" not-null="true" />
+    </property>
+    <bag name="film">
+      <key column="" />
+      <one-to-many class="film" />
+    </bag>
+    <bag name="film">
+      <key column="" />
+      <one-to-many class="film" />
+    </bag>
+  </class>
+</hibernate-mapping>

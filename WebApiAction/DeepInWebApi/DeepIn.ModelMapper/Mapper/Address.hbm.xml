@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="DeepIn.ModelMapper" namespace="DeepIn.ModelMapper.Model" 
+                   xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Address" table="address" lazy="true" >     
+    <id name="AddressId" column="address_id" type="int">
+      <generator class="assigned" />
+    </id>
+    <property name="Address1" type="string">
+      <column name="address" sql-type="varchar" not-null="true" />
+    </property>
+    <property name="Address2" type="string">
+      <column name="address2" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="District" type="string">
+      <column name="district" sql-type="varchar" not-null="true" />
+    </property>
+    <property name="CityId" type="int">
+      <column name="city_id" sql-type="smallint" not-null="true" />
+    </property>
+    <property name="PostalCode" type="string">
+      <column name="postal_code" sql-type="varchar" not-null="false" />
+    </property>
+    <property name="Phone" type="string">
+      <column name="phone" sql-type="varchar" not-null="true" />
+    </property>
+    <property name="LastUpdate" type="DateTime">
+      <column name="last_update" sql-type="timestamp" not-null="true" />
+    </property>
+    <!--
+     <many-to-one name="city">
+      <column name="city_id" sql-type="smallint(5) unsigned" not-null="true" />
+    </many-to-one>
+    <bag name="customer">
+      <key column="" />
+      <one-to-many class="customer" />
+    </bag>
+    <bag name="staff">
+      <key column="" />
+      <one-to-many class="staff" />
+    </bag>
+    <bag name="store">
+      <key column="" />
+      <one-to-many class="store" />
+    </bag>
+    -->    
+  </class>
+</hibernate-mapping>

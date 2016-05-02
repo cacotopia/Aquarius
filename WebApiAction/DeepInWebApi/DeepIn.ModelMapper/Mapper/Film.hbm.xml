@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="DeepIn.ModelMapper" namespace="DeepIn.ModelMapper.Model" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="film_actor" table="film_actor" lazy="true" >
+    <composite-id>
+      <key-property name="actor_id" column="actor_id" />
+      <key-property name="film_id" column="film_id" />
+    </composite-id>
+    <property name="last_update">
+      <column name="last_update" sql-type="timestamp" not-null="true" />
+    </property>
+  </class>
+</hibernate-mapping>

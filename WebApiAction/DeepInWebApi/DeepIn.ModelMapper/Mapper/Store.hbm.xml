@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="DeepIn.ModelMapper" namespace="DeepIn.ModelMapper.Model" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="store" table="store" lazy="true" >
+    <id name="store_id" column="store_id" />
+    <many-to-one name="address">
+      <column name="address_id" sql-type="smallint(5) unsigned" not-null="true" />
+    </many-to-one>
+    <property name="manager_staff_id">
+      <column name="manager_staff_id" sql-type="tinyint(3) unsigned" not-null="true" />
+    </property>
+    <property name="last_update">
+      <column name="last_update" sql-type="timestamp" not-null="true" />
+    </property>
+    <bag name="customer">
+      <key column="" />
+      <one-to-many class="customer" />
+    </bag>
+    <bag name="inventory">
+      <key column="" />
+      <one-to-many class="inventory" />
+    </bag>
+    <bag name="staff">
+      <key column="" />
+      <one-to-many class="staff" />
+    </bag>
+  </class>
+</hibernate-mapping>

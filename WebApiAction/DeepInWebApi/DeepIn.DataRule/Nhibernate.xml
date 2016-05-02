@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net"
+         xmlns:db="http://www.springframework.net/database">
+  <description>
+    <![CDATA[   
+    
+    ]]>
+  </description>
+  <!--  Property placeholder configurer for database settings -->
+  <object type="Spring.Objects.Factory.Config.PropertyPlaceholderConfigurer, Spring.Core">
+    <property name="ConfigSections" value="databaseSettings"/>
+  </object>
+  <!-- Database and NHibernate Configuration -->
+  <db:provider id="DbProvider" provider="SqlServer-1.1"
+               connectionString="Server=${db.datasource};database=${db.database};uid=${db.user};pwd=${db.password};"/>
+  <!-- Exception translation object post processor -->
+  <object id="exceptionTranslation"
+          type="Spring.Dao.Attributes.PersistenceExceptionTranslationPostProcessor,Spring.Data">
+  </object>
+  <!-- NHibernate SessionFactory Configuration -->
+  <object id="NHibernateSessionFactory" type="Spring.Data.NHibernate.LocalSessionFactoryObject, Spring.Data.NHibernate4">
+    <property name="DbProvider" ref="DbProvider"/>
+    <property name="MappingAssemblies">
+      <list>
+        <value>LoongAir.Engine.ModelMapper</value>
+      </list>
+    </property>
+    <!-- ConfigFilenames -->
+    <property name="HibernateProperties">
+      <dictionary>
+        <entry key="hibernate.connection.provider" value="NHibernate.Connection.DriverConnectionProvider"/>
+        <entry key="dialect" value="NHibernate.Dialect.MsSql2008Dialect"/>
+        <entry key="hibernate.connection.driver_class" value="NHibernate.Driver.SqlClientDriver"/>
+        <entry key="use_outer_join" value="true"/>
+        <entry key="show_sql" value="false"/>
+        <!--自动建表(反向映射)-->
+        <entry key="hbm2ddl.auto" value="update"/>
+        <entry key="adonet.batch_size" value="10"/>
+        <entry key="command_timeout" value="60"/>
+        <!--启动查询缓存 -->
+        <entry key="cache.use_query_cache" value="false"/>
+        <entry key="query.substitutions" value="true 1, false 0, yes 'Y', no 'N"/>
+        <!-- 
+         <entry key="proxyfactory.factory_class" value="NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle"/>
+        -->
+        <!-- 显式启用二级缓存 -->
+        <entry key="cache.use_second_level_cache" value="true"/>
+        <!-- 二级缓存Provider -->
+        <entry key="cache.provider_class" value="NHibernate.Caches.Prevalence.PrevalenceCacheProvider, NHibernate.Caches.Prevalence"/>
+        <!-- 二级缓存有效时间 -->
+        <entry key="cache.default_expiration" value="300"/>
+        <entry key="expiration" value="300" />
+        <!-- 物理缓存文件的存放位置 -->
+        <entry key="prevalenceBase" value="D:/cache" />
+      </dictionary>
+    </property>
+    <property name="ExposeTransactionAwareSessionFactory" value="true" />
+  </object>
+  <!-- HibernateTransactionManager -->
+  <object id="transactionManager"
+        type="Spring.Data.NHibernate.HibernateTransactionManager, Spring.Data.NHibernate4">
+    <property name="DbProvider" ref="DbProvider"/>
+    <property name="SessionFactory" ref="NHibernateSessionFactory"/>
+  </object>
+  <!-- Hibernate TransactionInterceptor -->
+  <object id="transactionInterceptor" type="Spring.Transaction.Interceptor.TransactionInterceptor, Spring.Data">
+    <property name="TransactionManager" ref="transactionManager"/>
+    <property name="TransactionAttributeSource">
+      <object type="Spring.Transaction.Interceptor.AttributesTransactionAttributeSource, Spring.Data"/>
+    </property>
+  </object>
+  <!-- TxScopeTransactionManager -->
+  <!-- HibernateTxScopeTransactionManager -->
+  <!-- TransactionProxyFactoryObject -->
+  <object id="BaseTransactionManager"
+          type="Spring.Transaction.Interceptor.TransactionProxyFactoryObject, Spring.Data"
+          abstract="true">
+    <property name="PlatformTransactionManager" ref="transactionManager"/>
+    <property name="TransactionAttributes">
+      <name-values>
+        <!--增加-->
+        <add key="Save*" value="PROPAGATION_REQUIRED"/>
+        <add key="Set*" value="PROPAGATION_REQUIRED" />
+        <add key="Finish*" value="PROPAGATION_REQUIRED" />
+        <!--修改-->
+        <add key="Update*" value="PROPAGATION_REQUIRED"/>
+        <!--删除-->
+        <add key="Delete*" value="PROPAGATION_REQUIRED"/>
+        <!--获取-->
+        <add key="Get*" value="PROPAGATION_REQUIRED"/>
+        <!--浏览-->
+        <add key="Find*" value="PROPAGATION_SUPPORTS,readOnly"/>
+        <!--检索-->
+        <add key="Search*" value="PROPAGATION_SUPPORTS,readOnly"/>
+        <!--报表-->
+        <add key="Query*" value="PROPAGATION_SUPPORTS,readOnly"/>
+        <!--载入-->
+        <add key="Load*" value="PROPAGATION_SUPPORTS,readOnly"/>
+        <!--其它-->
+        <add key="*" value="PROPAGATION_REQUIRED"/>
+      </name-values>
+    </property>
+  </object>
+  <!-- HibernateTemplate -->
+  <object id="HibernateTemplate" type="Spring.Data.NHibernate.Generic.HibernateTemplate">
+    <property name="SessionFactory" ref="NHibernateSessionFactory" />
+    <property name="TemplateFlushMode" value="Auto" />
+    <property name="CacheQueries" value="true" />
+  </object>
+</objects>

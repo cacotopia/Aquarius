@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="DeepIn.ModelMapper" namespace="DeepIn.ModelMapper.Model" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="staff" table="staff" lazy="true" >
+    <id name="staff_id" column="staff_id" />
+    <many-to-one name="address">
+      <column name="address_id" sql-type="smallint(5) unsigned" not-null="true" />
+    </many-to-one>
+    <many-to-one name="store">
+      <column name="store_id" sql-type="tinyint(3) unsigned" not-null="true" />
+    </many-to-one>
+    <property name="first_name">
+      <column name="first_name" sql-type="varchar(45)" not-null="true" />
+    </property>
+    <property name="last_name">
+      <column name="last_name" sql-type="varchar(45)" not-null="true" />
+    </property>
+    <property name="picture">
+      <column name="picture" sql-type="blob" not-null="false" />
+    </property>
+    <property name="email">
+      <column name="email" sql-type="varchar(50)" not-null="false" />
+    </property>
+    <property name="active">
+      <column name="active" sql-type="tinyint(1)" not-null="true" />
+    </property>
+    <property name="username">
+      <column name="username" sql-type="varchar(16)" not-null="true" />
+    </property>
+    <property name="password">
+      <column name="password" sql-type="varchar(40)" not-null="false" />
+    </property>
+    <property name="last_update">
+      <column name="last_update" sql-type="timestamp" not-null="true" />
+    </property>
+    <bag name="payment">
+      <key column="" />
+      <one-to-many class="payment" />
+    </bag>
+    <bag name="rental">
+      <key column="" />
+      <one-to-many class="rental" />
+    </bag>
+    <bag name="store">
+      <key column="" />
+      <one-to-many class="store" />
+    </bag>
+  </class>
+</hibernate-mapping>
