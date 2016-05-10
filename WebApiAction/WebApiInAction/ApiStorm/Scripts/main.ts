@@ -1,29 +1,55 @@
 ﻿/// <reference path="typings/angularjs/angular.d.ts" />
 /// <reference path="typings/angularjs/angular-route.d.ts" />
+/// <reference path="typings/angular-translate/angular-translate.d.ts" />
+/// <reference path="typings/angular-ui-router/angular-ui-router.d.ts" />
+/// <reference path="typings/angular-ui/angular-ui-sortable.d.ts" />
+/// <reference path="typings/angular-translate/angular-translate.d.ts" />
+/// <reference path="app/shareApp.ts" />
+
+import shareAppModule = require("./app/shareApp");
+
 requirejs.config({
-    baseUrl: "Scripts/appScripts",
+    baseUrl: "Scripts/app",
     paths: {
-        "jquery": "../jquery-2.2.1.min",
+        "jquery": "../jquery-2.2.3.min",
         "bootstrap": "../bootstrap",
-        "app": "./shareApp",
-        "angular": "../angular",
-        "ngRoute": "../angular-route",
+        "angular": "../angular.min",
         "ngSanitize": "../angular-sanitize",
-        "mainCtrls": "./mainControllers",
-        "ui.bootstrap": "../angular-ui/ui-bootstrap-tpls"
+        "ngRoute": "../angular-route.min",
+        "ui.router": "../angular-ui-router.min",
+        "ui.bootstrap": "../angular-ui/ui-bootstrap-tpls",
+        "angular-translate": "../angular-translate.min",
+        "applicationController": "./controllers/applicationController",
+        "app": "./shareApp",
+        "routeConfig": "./configs/configRouter",
+        "transplteConfig": "./configs/configTranslate",
+        "serviceFactory": "./services/accountService"
     },
     shim: {
+        "ui.router": {
+            deps: ['angular']          
+        },
         "ngRoute": ['angular'],
         "ngSanitize": ['angular'],
-        "ui.bootstrap": ['angular'],
-        "bootstrap": ['jquery']
+        "ui.bootstrap": {
+            deps: ['angular']          
+        },
+        "bootstrap": ['jquery'],
+        "angular-translate": {
+            deps: ['angular'],
+            exports: 'angular-translate'
+        }
     }
 });
-
-requirejs(["app", "bootstrap", "angular", "ngRoute", "ngSanitize", "ui.bootstrap"], (app) => {
-    var shareApp = new app.shareApp();
-
+/**
+ * Main entry point for RequireJS
+ */
+requirejs(["app", "bootstrap", "angular", "ngRoute", "ui.router", "ngSanitize", "ui.bootstrap", "angular-translate"], (app) => {
+    var shareApp = new shareAppModule.shareApp();
     angular.element(document).ready(() => {
         angular.bootstrap(document, ['shareApp']);
     });
 });
+
+
+

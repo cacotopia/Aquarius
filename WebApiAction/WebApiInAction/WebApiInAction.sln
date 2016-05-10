@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F8B8C9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiStorm", "ApiStorm\ApiStorm.csproj", "{BBC10508-F648-45C7-AC5A-4AE9EBF6F005}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Data", "WebApi.Data\WebApi.Data.csproj", "{C8736635-B9DD-4194-A3E6-0D837ED94EAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		{BBC10508-F648-45C7-AC5A-4AE9EBF6F005}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBC10508-F648-45C7-AC5A-4AE9EBF6F005}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBC10508-F648-45C7-AC5A-4AE9EBF6F005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8736635-B9DD-4194-A3E6-0D837ED94EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8736635-B9DD-4194-A3E6-0D837ED94EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8736635-B9DD-4194-A3E6-0D837ED94EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8736635-B9DD-4194-A3E6-0D837ED94EAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

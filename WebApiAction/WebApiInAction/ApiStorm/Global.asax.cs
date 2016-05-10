@@ -2,7 +2,7 @@
 using System.Web.Routing;
 using System.Web.Http;
 
-namespace ShareIt
+namespace ApiStorm
 {
     public class WebApiApplication : System.Web.HttpApplication
     {

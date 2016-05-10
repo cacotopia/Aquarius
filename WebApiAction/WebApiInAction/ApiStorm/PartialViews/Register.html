@@ -1,0 +1,22 @@
+﻿<div class="col-sm-4 col-sm-offset-4 form-main">
+    <h2>Register a new user</h2>
+    <form name="registerForm" ng-controller="RegisterController as regCtrl" ng-submit="registerForm.$valid && regCtrl.register()" novalidate>
+        <div class="form-group">
+            <label>First Name :</label>
+            <input type="text" ng-model="regCtrl.user.firstName" class="ng-pristine ng-valid form-control" placeholder="Enter first name" required />
+        </div>
+        <div class="form-group">
+            <label>Last Name :</label>
+            <input type="text" ng-model="regCtrl.user.lastName" class="ng-pristine ng-valid form-control" placeholder="Enter last name" required />
+        </div>
+        <div class="form-group">
+            <label>User Name :</label>
+            <input type="text" ng-model="regCtrl.user.userName" class="ng-pristine ng-valid form-control" placeholder="Enter user name" required />
+        </div>
+        <div class="form-group">
+            <label>Password:</label>
+            <input type="password" ng-model="regCtrl.user.password" class="ng-pristine ng-valid form-control" placeholder="***********" required />
+        </div>
+        <input type="submit" class="btn btn-primary btn-default" value="Add User" />
+    </form>
+</div>
