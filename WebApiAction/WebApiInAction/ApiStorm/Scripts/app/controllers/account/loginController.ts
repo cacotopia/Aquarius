@@ -1,10 +1,9 @@
 ﻿"user strict";
-
 import ng = angular;
 import mod = require("../models/UserModel");
 import svc = require("../services/accountService");
 
-export interface Scope {
+export interface LoginScope {
 
 }
 

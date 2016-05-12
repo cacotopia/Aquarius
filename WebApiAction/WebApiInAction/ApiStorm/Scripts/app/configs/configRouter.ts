@@ -96,24 +96,31 @@ export class configRouter {
     //ngRouter configuration    
     public configure($routeProvider: ngr.IRouteProvider, $locationProvider: ng.ILocationProvider): void {
         $routeProvider.when("/", {
-            templateUrl: "PartialViews/Home.html",
-            controller: "MainController as vm"
+            templateUrl: "Scripts/app/views/Home.html",
+            controller: "MainController"
         }).when("/Login", {
-            templateUrl: "PartialViews/Login.html",
-            controller: "LoginController as vm"
+            templateUrl: "Scripts/app/views/account/Login.html",
+            controller: "LoginController"
         }).when("/Register", {
-            templateUrl: "PartialViews/Register.html",
+            templateUrl: "Scripts/app/views/account/Register.html",
             controller: "RegisterController"
-        }).when("/Buddies", {
-            templateUrl: "PartialViews/Buddies.html",
+        })/*
+            .when("/#/Buddies", {
+            templateUrl: "Scripts/app/views/buddies/Buddies.html",
             controller: "BuddiesController"
-        }).when("/Share", {
-            templateUrl: "PartialViews/Buddies.html",
+        }).when("/#/Share", {
+            templateUrl: "Scripts/app/views/buddies/Buddies.html",
             controller: "ShareController"
-        }).otherwise({
+        })
+         */.otherwise({
             redirectTo: "/"
+            });
+       /*
+       $routeProvider.when('/project/:id',{
+        templateUrl: function($routeParams){return 'project/'+$routeParams.id;},
+         controller:'projectController'
         });
-        //$urlRouterProvider.otherwise('NotFound');
+        */
         $locationProvider.html5Mode({
             enabled: true,
             requireBase: false

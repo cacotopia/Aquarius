@@ -4,53 +4,56 @@
     <meta charset=utf-8 />
     <meta http-equiv=X-UA-Compatible content="IE=edge">
     <meta name=viewport content="width=device-width, initial-scale=1">
+    <base href="/">
     <title>ApiStorm</title>
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <link href="~/Content/Site.css" rel="stylesheet" />
     <link href="~/Content/main.css" rel="stylesheet" />
     <script data-main="/Scripts/main" src="~/Scripts/require.js"></script>
 </head>
-<body ng-controller="ApplicationController">
-    <div class="navbar navbar-inverse navbar-fixed-top center">
-        <div class="navbar-inner">
-            <div class="container center">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#/">
-                        <span class="color-white">Share It</span>
-                    </a>
-                </div>
-                <div id="navbar" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#/Login">Login</a></li>
-                        <li><a href="#/Register">Register</a></li>
-                        <li ng-class="{disablea:!ctrl.loggedIn}">
-                            <a href="#/Buddies" ng-class="{disablea:!ctrl.loggedIn}">Add Buddies</a>
-                        </li>
-                        <li ng-class="{disablea:!ctrl.loggedIn}">
-                            <a href="#/Share" ng-class="{disablea:!ctrl.loggedIn}">Share</a>
-                        </li>
-                    </ul>
+<body ng-controller="MainController as vm">
+        <div class="navbar navbar-inverse navbar-fixed-top center">
+            <div class="navbar-inner">
+                <div class="container center">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/">
+                            <span class="color-white">Share It</span>
+                        </a>
+                    </div>
+                    <div id="navbar" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="Login">{{'LOGIN' | translate}}</a></li>
+                            <li><a href="Register">{{'RIGESTER' | translate}}</a></li>
+                            <li ng-class="{disablea:!vm.loggedIn}">
+                                <a href="Buddies" ng-class="{disablea:!vm.loggedIn}">Add Buddies</a>
+                            </li>
+                            <li ng-class="{disablea:!vm.loggedIn}">
+                                <a href="Share" ng-class="{disablea:!vm.loggedIn}">Share</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="container" class="container leftrightjustify">
-        <h3 ng-show="vm.loggedIn">{{vm.loggedInUser.FirstName + " " + vm.loggedInUser.LastName}} is logged in.</h3>
-        <h3 ng-show="vm.message.length">{{vm.message}}</h3>
-        <hr />
-        <div ng-view></div>
-    </div>
-    <div class="container body-content">
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - ASP.NET  WebApi Application</p>
-        </footer>
-    </div>
-</body>
+        <div id="container" class="container leftrightjustify">
+            <h3 ng-show="vm.loggedIn">{{vm.loggedInUser.FirstName + " " + vm.loggedInUser.LastName}} is logged in.</h3>
+            <h3 ng-show="vm.message.length">{{vm.message}}</h3>
+            <hr />
+            <div ng-view></div>
+        </div>
+        <div class="container body-content">
+             <p>Name : {{name}}</p>
+             <p>LastName : {{lastName}}</p>
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - ASP.NET  WebApi Application</p>
+            </footer>
+        </div>
+    </body>
 </html>

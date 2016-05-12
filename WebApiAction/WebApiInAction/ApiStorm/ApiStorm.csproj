@@ -198,19 +198,23 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\image\favicon.ico" />
     <Content Include="Content\main.css" />
     <Content Include="Content\ui-bootstrap-csp.css" />
+    <Content Include="Content\ui-grid.css" />
+    <Content Include="Content\ui-grid.min.css" />
+    <Content Include="Content\ui-grid.svg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="packages.config" />
-    <Content Include="PartialViews\Error.html" />
-    <Content Include="PartialViews\Home.html" />
-    <Content Include="PartialViews\Login.html" />
-    <Content Include="PartialViews\NotFound.html" />
-    <Content Include="PartialViews\Register.html" />
+    <Content Include="Scripts\app\views\Error.html" />
+    <Content Include="Scripts\app\views\Home.html" />
+    <Content Include="Scripts\app\views\account\Login.html" />
+    <Content Include="Scripts\app\views\NotFound.html" />
+    <Content Include="Scripts\app\views\account\Register.html" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-aria.js" />
@@ -251,6 +255,7 @@
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="Scripts\angular-route.min.js.map" />
     <Content Include="Scripts\angular-sanitize.min.js.map" />
+    <Content Include="Scripts\app\views\product\Products.html" />
     <Content Include="Scripts\errors.json" />
     <Content Include="Scripts\angular-touch.min.js.map" />
     <Content Include="Scripts\angular-resource.min.js.map" />
@@ -261,6 +266,12 @@
     <Content Include="Scripts\angular-cookies.min.js.map" />
     <Content Include="Scripts\angular-aria.min.js.map" />
     <Content Include="Scripts\angular-animate.min.js.map" />
+    <Content Include="Content\ui-grid.woff" />
+    <Content Include="Content\ui-grid.ttf" />
+    <Content Include="Content\ui-grid.eot" />
+    <Content Include="Scripts\app\locales\locale-en.json" />
+    <Content Include="Scripts\app\locales\locale-de.json" />
+    <Content Include="Scripts\app\locales\locale-zh.json" />
     <None Include="Scripts\jquery-2.2.3.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
@@ -1013,6 +1024,8 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\main.js.map" />
     <Content Include="Scripts\text.js" />
+    <Content Include="Scripts\ui-grid.js" />
+    <Content Include="Scripts\ui-grid.min.js" />
     <Content Include="Views\Home\index.cshtml" />
     <Content Include="Views\web.config" />
     <Content Include="Scripts\jquery-2.2.3.min.map" />
@@ -1062,6 +1075,7 @@
     <TypeScriptCompile Include="Scripts\app\configs\configTranslate.ts" />
     <TypeScriptCompile Include="Scripts\app\controllers\applicationController.ts" />
     <TypeScriptCompile Include="Scripts\app\controllers\account\loginController.ts" />
+    <TypeScriptCompile Include="Scripts\app\controllers\mainControllers.ts" />
     <TypeScriptCompile Include="Scripts\app\controllers\products\productController.ts" />
     <TypeScriptCompile Include="Scripts\app\controllers\products\productListController.ts" />
     <TypeScriptCompile Include="Scripts\app\controllers\account\registerController.ts" />
@@ -1087,17 +1101,15 @@
     <TypeScriptCompile Include="Scripts\typings\es6-promise\es6-promise.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\requirejs\require.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\ui-grid\ui-grid.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\controllers\" />
-    <Folder Include="Content\modules\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\appScripts\" />
     <Folder Include="Scripts\app\components\" />
     <Folder Include="Scripts\app\directives\" />
     <Folder Include="Scripts\app\filters\" />
-    <Folder Include="Scripts\app\views\" />
+    <Folder Include="Scripts\app\views\buddies\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WebApi.DataModel\WebApi.DataModel.csproj">

@@ -1,9 +1,10 @@
 ﻿"user strict";
 
 import productModule = require("../models/ProductModel");
-import svc = require("../services/productService");
+import productServiceModule = require("../services/productService");
 
-export interface Scope {
+export interface ProductScope {
+
     newProductName: string;
     newProductPrice: number;
     products: productModule.Product[];
@@ -15,10 +16,11 @@ export class productController {
 
     private productService: any;
 
-    constructor($scope: Scope, $exportService: svc.ProductService) {
+    constructor($scope: ProductScope, $exportService: productServiceModule.ProductService) {
         this.productService = $exportService;
         this.refreshProducts($scope);
         var controller = this;
+
         $scope.addNewProduct = function () {
             var newProduct = new productModule.Product();
             newProduct.Name = $scope.newProductName;
@@ -30,6 +32,7 @@ export class productController {
                 });
             });
         };
+
         $scope.deleteProduct = function (productId) {
             controller.deleteProduct(productId, function () {
                 controller.getAllProducts(function (data) {
@@ -83,7 +86,7 @@ export class productController {
         });
     }
 
-    refreshProducts(scope: Scope) {
+    refreshProducts(scope: ProductScope) {
         this.getAllProducts(function (data) {
             scope.products = data;
         });

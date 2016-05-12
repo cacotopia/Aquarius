@@ -1,13 +1,12 @@
 ﻿"use strict";
 
-import appCtrls = require("./controllers/applicationController");
-
+import mainCtrlsModule = require("./controllers/mainControllers");
 export class shareApp {
-
     constructor() {
 
-        var ngApp = angular.module('shareApp', ["ngSanitize", "ui.router", "ngRoute", "ui.bootstrap", "pascalprecht.translate", "ApplicationController"]);
 
-        var mainCtrls = new appCtrls.ApplicationController();
+
+        var ngApp = angular.module('shareApp', ["ngRoute", "ngSanitize", "ui.router", "ui.bootstrap", "pascalprecht.translate","mainControllers"]);
+        var mainCtrls = new mainCtrlsModule.mainControllers();
     }
 }
